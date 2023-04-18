@@ -1,0 +1,29 @@
+@import "../colours.css";
+
+.summary{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    
+
+    
+   
+}
+
+.summary h4{
+    color: var(--Dark-gray-blue);
+}
+
+.barContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (width >460px) {
+    .summary{
+        width: 50%;
+    }
+}

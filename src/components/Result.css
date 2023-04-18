@@ -1,0 +1,73 @@
+@import url("../colours.css");
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+ 
+ 
+
+  background: linear-gradient(
+    var(--Light-slate-blue-background),
+    var(--Light-royal-blue-background)
+  );
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.background h2 {
+  color: var(--Light-lavender);
+  
+}
+
+.circleScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25rem;
+  margin: 1rem;
+  width: 5rem;
+  padding: 2rem;
+  background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+}
+.circleScore p:first-of-type {
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--White);
+}
+.circleScore p:last-of-type {
+  color: var(--Dark-lavender);
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--White);
+
+  padding: 1rem;
+}
+main h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+main p {
+  color: var(--Light-lavender);
+}
+
+
+@media screen and (width >460px) {
+  .background{
+    border-radius: 3rem;
+    width: 50%;
+  }
+}

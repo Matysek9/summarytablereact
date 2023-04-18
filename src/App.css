@@ -1,0 +1,33 @@
+@import url("./colours.css");
+
+* {
+  margin: 0;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  box-shadow: 0 0 30px 1px var(--Cobalt-blue);
+}
+
+@media screen and (width >460px) {
+  body {
+    align-items: center;
+    margin-inline: 4rem;
+  }
+
+  .card {
+    display: flex;
+   
+
+
+    border-radius: 3rem;
+    /* height: 60vh; */
+  }
+}

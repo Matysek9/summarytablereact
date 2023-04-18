@@ -1,0 +1,17 @@
+@import "../colours.css";
+
+button{
+   background-color: var(--Dark-gray-blue);
+   color: var(--White);
+   padding: 0.6rem;
+   border-radius: 1rem;
+   border: none;
+ 
+}
+
+button:active{
+    background: linear-gradient(
+    var(--Light-slate-blue-background),
+    var(--Light-royal-blue-background)
+  );
+}

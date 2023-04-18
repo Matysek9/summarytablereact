@@ -1,0 +1,49 @@
+@import "../colours.css";
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.category {
+  text-align: center;
+}
+
+.score p:nth-child(1) {
+  color: var(--Dark-gray-blue);
+}
+.score p:nth-child(2) {
+  color: var(--Dark);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-05 {
+  gap: 0.5rem;
+}
+
+.red {
+  background-color: var(--Light-red);
+}
+.yellow {
+  background-color: var(--Orangey-yellow);
+}
+.green {
+  background-color: var(--Green-teal);
+}
+
+.blue {
+  background-color: var(--Cobalt-blue);
+}
