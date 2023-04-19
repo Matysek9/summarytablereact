@@ -36,7 +36,9 @@
 
 .red {
   background-color: var(--Light-red);
+  color: var(--Light-red-txt) ;
 }
+/* txt color class  add */
 .yellow {
   background-color: var(--Orangey-yellow);
 }
@@ -47,5 +49,4 @@
 .blue {
   background-color: var(--Cobalt-blue);
 }
-
 

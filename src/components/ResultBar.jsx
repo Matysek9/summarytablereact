@@ -11,6 +11,8 @@ function ResultBar(props) {
         <p>{props.score}</p>
         <p>/100</p>
       </div>
+      
+     
 
       
     </div>
