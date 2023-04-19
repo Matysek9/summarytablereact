@@ -1,5 +1,5 @@
 import "./ResultBar.css";
-import {ComponentIcon as icon} from "../assets/icon-visual.svg";
+import "../assets/icon-visual.svg";
 
 function ResultBar(props) {
   return (
@@ -12,7 +12,7 @@ function ResultBar(props) {
         <p>{props.score}</p>
         <p>/100</p>
       </div>
-      {icon}
+      
     </div>
   );
 }
