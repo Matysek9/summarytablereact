@@ -41,12 +41,15 @@
 /* txt color class  add */
 .yellow {
   background-color: var(--Orangey-yellow);
+  color: var(--Orangey-yellow-txt);
 }
 .green {
   background-color: var(--Green-teal);
+  color: var(--Green-teal-txt);
 }
 
 .blue {
   background-color: var(--Cobalt-blue);
+  color: var(--Cobalt-blue-txt);
 }
 
