@@ -1,5 +1,4 @@
 import "./ResultBar.css";
-import  MySvg from "../assets/icon-visual.svg";
 
 function ResultBar(props) {
   return (
@@ -12,7 +11,7 @@ function ResultBar(props) {
         <p>{props.score}</p>
         <p>/100</p>
       </div>
-      <img src={MySvg} alt="" />
+
       
     </div>
   );
