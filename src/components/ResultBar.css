@@ -47,3 +47,11 @@
 .blue {
   background-color: var(--Cobalt-blue);
 }
+
+
+.svg{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: black;
+}
