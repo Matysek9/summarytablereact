@@ -6,7 +6,7 @@ function ResultBar(props) {
   return (
     <div className={`bar ${props.color}`}>
       <div className="category flex gap-1">
-        <object src={props.img} alt="svg icon"  className="svg"/>
+        <img src={props.img} alt="svg icon"  className="svg"/>
      
         <span>{props.category}</span>
       </div>
