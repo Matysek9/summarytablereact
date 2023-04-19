@@ -7,7 +7,7 @@ function ResultBar(props) {
     <div className={`bar ${props.color}`}>
       <div className="category flex gap-1">
         {/* <object src={props.img} alt="svg icon" /> */}
-        <object data={props.img} type="image/svg+xml"></object>
+        <object data={props.img} type=""></object>
         <span>{props.category}</span>
       </div>
       <div className="score flex gap-05">
